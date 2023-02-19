@@ -42,14 +42,15 @@ public class UserDao {
     public boolean login(String login, String pin){
 
 
-        User u1 = entityManager.find(User.class,login);
         String password = null;
-        name = u1.getFname();
-        email = u1.getEmail();
-        pho = u1.getNumber();
 
 
 try {
+    User u1 = entityManager.find(User.class,login);
+
+    name = u1.getFname();
+    email = u1.getEmail();
+    pho = u1.getNumber();
 
 
      password = u1.getPass();
