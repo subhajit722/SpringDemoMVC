@@ -1,0 +1,26 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="sk" type="com.poratu.idea.plugins.tomcat" editBeforeRun="true" singleton="false" show_console_on_std_err="true" show_console_on_std_out="true">
+    <output_file is_save="true" />
+    <log_file alias="Tomcat Catalina Log" path="$USER_HOME$/.SmartTomcat/SpringDemoMVC/SpringDemoMVC/logs/catalina.*" />
+    <log_file alias="Tomcat Manager Log" path="$USER_HOME$/.SmartTomcat/SpringDemoMVC/SpringDemoMVC/logs/manager.*" />
+    <log_file alias="Tomcat Host Manager Log" path="$USER_HOME$/.SmartTomcat/SpringDemoMVC/SpringDemoMVC/logs/host-manager.*" />
+    <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+    <predefined_log_file enabled="true" id="Tomcat Access Log" />
+    <option name="contextPath" value="/SpringDemoMVC" />
+    <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+    <option name="envOptions">
+      <map />
+    </option>
+    <option name="tomcatInfo">
+      <TomcatInfo>
+        <option name="name" value="Apache Tomcat/9.0.71" />
+        <option name="path" value="$PROJECT_DIR$/../../../../../../Program Files/Apache Software Foundation/Tomcat 9.0" />
+        <option name="version" value="9.0.71.0" />
+      </TomcatInfo>
+    </option>
+    <option name="vmOptions" value="" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

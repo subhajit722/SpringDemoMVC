@@ -1,0 +1,51 @@
+body{
+ 
+  background-image: url(img/pppp.jpg);
+  background-size: cover;
+}
+#head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-shadow: 0lvw;
+  text-decoration: solid;
+ color:greenyellow;
+ font-style: italic;
+ text-decoration: dotted;
+ text-shadow: 30%;
+ 
+}
+#box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  width: 600px;
+  height: 800px;
+  background-image: url(img/1.jpg);
+  background-size: cover;
+}
+
+#i{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  text-decoration: none;
+  text-decoration: solid;
+  font-weight: bolder;
+  color: aqua;
+}
+
+button{
+
+  height: 50px;
+}
+
+button:hover{
+  background-color: coral;
+}

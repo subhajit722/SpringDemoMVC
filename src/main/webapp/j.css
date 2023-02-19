@@ -1,0 +1,51 @@
+#main{
+
+
+  font-weight: bolder;
+    color: crimson;
+    font-size: larger;
+    font-style: italic;
+    width: 550px;
+    height: 900px;
+    margin-left: 450px;
+    padding-left: 40px;
+    margin-top: 40px;
+
+
+
+    align-items: center;
+    align-self: center;
+    background-image: url(img/annie-spratt-4Hpljf9Y1ko-unsplash.jpg);
+    background-size: auto;
+
+
+  }
+
+  body{
+    background-image: url(img/uu.jpg);
+    background-size: cover;
+
+  }
+  #fo{
+    display: flex;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: larger;
+    font-style: italic;
+    width: 550px;
+    width: 450px;
+    height: 700px;
+
+  }
+  #bo{
+    display: flex;
+    width: 250;
+    justify-content: space-between;
+  }
+
+  #b1:hover{
+    background-color: blue;
+  }
+  #b2:hover{
+    background-color: blue;
+  }
